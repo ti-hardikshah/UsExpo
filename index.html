@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="https://unpkg.com/intersection-observer/intersection-observer.js"></script>
     <script src="https://unpkg.com/resize-observer-polyfill/dist/ResizeObserver.js"></script>
@@ -14,7 +14,7 @@
     <script src="https://unpkg.com/focus-visible/dist/focus-visible.js" defer></script>
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script nomodule src="./assets/js/model-viewer-legacy.js"></script>
+    <script nomodule src="/assets/js/model-viewer-legacy.js"></script>
     
   </head>
 
@@ -22,13 +22,13 @@
   
   <div class="grid-container">
     <model-viewer class="a" 
-     src="./assets/model/Male.glb"
-     ios-src="./assets/model/Single_Denial.reality"
+     src="/assets/model/UsExpo_AR.glb"
+     ios-src="/assets/model/ARExpo.reality"
      exposure="1"
      alt="assets" 
      loading="auto" 
      environment-image="neutral"
-     poster="./assets/image/loading4.gif" 
+     poster="/assets/image/loading4.gif" 
      camera-controls
      camera-orbit 
      ar ar-placement=""
@@ -36,7 +36,7 @@
      id="model-viewer"
      ar-status="not-presenting" 
      autoplay>
-    <input slot="ar-button" class="ar-button" value="submit" type="image" src="./assets/image/ariconsiyah.png" width="30px" height="30px"> 
+    <input slot="ar-button" class="ar-button" value="submit" type="image" src="/assets/image/ariconsiyah.png" width="30px" height="30px"> 
     </model-viewer>
 
   </div>
